@@ -28,3 +28,25 @@ This project implements a dynamic event registration form using React, featuring
 5. Open your browser and go to `http://localhost:3000` to view the form.
 
 ## Project Structure
+src/
+├── components/
+│ ├── Form.js # Main form component
+│ ├── InputField.js # Input field component
+│ ├── RadioField.js # Radio button component
+│ └── Summary.js # Summary component
+├── hooks/
+│ ├── useForm.js # Custom hook for managing form state
+│ └── useFormValidation.js # Custom hook for form validation logic
+└── App.js # Main application component
+
+
+## Custom Hooks
+- **useForm**: Manages form state including field values and visibility of guest name.
+- **useFormValidation**: Handles form validation logic based on defined rules.
+
+## Additional Notes
+- Ensure all dependencies are installed (`react`, `react-dom`, etc.) before running the application.
+- The form UI is designed to provide a seamless user experience with clear feedback on errors.
+
+Feel free to customize and expand upon this project as needed. Happy coding!
+
